@@ -1,0 +1,429 @@
+/* Register */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-image: url("https://t4.ftcdn.net/jpg/06/96/96/21/240_F_696962120_ZVeQ0lRO6n8KhJE2nqijK6pYr5CkebnQ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.sign-up-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 450px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+  border-radius: 20px 0px;
+  box-shadow: 2px 4px 4px 6px red;
+  animation: infinite linear 4s b;
+}
+
+@keyframes b {
+  0%,
+  100% {
+    box-shadow: 2px 4px 4px 6px red;
+  }
+  50% {
+    box-shadow: 2px 4px 4px 6px blue;
+  }
+}
+
+.sign-up-form {
+  width: 100%;
+  transform: translateY(70px);
+}
+
+.sign-up-form > h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+label {
+  padding-left: 40px;
+  font-size: 18px;
+  display: block;
+  color: #fff;
+}
+
+.sign-up-form input {
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 43px;
+  padding: px;
+  background: transparent;
+  transition: 0.6s case;
+  margin-bottom: 13px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.sign-up-form > textarea {
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 43px;
+  padding: px;
+  background: transparent;
+  transition: 0.6s case;
+  margin-bottom: 13px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.sign-up-form input:focus {
+  outline: none;
+}
+
+.sign-up-form textarea:focus {
+  outline: none;
+}
+
+.sign-up-form > button {
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  padding-top: 5px;
+  margin-left: 43px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  background-color: #ffff;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px 0px;
+  cursor: pointer;
+}
+
+.sign-up-form > button:hover {
+  border-radius: 0px 20px;
+}
+
+.sign-up-form p {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.sign-up-form img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+#logo {
+  margin-top: 5px;
+  width: 40px;
+  padding-right: 5px;
+  background-color: rgb(234, 178, 187);
+}
+
+#content {
+  position: relative;
+}
+
+#content > img {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  mix-blend-mode: multiply;
+}
+
+#link {
+  color: lightpink;
+}
+
+.navbar {
+  height: 70px;
+  background-color: rgb(234, 178, 187);
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+  font-size: 45px;
+}
+
+.Homebtn {
+  background-color: rgb(234, 178, 187);
+  padding: 5px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px 0px;
+}
+
+.Homebtn:hover {
+  border: 2px solid black;
+  border-radius: 20px 0px;
+}
+
+.homeHeading {
+  font-family: "Dancing Script", cursive;
+  padding-top: 50px;
+  padding-left: 140px;
+  font-size: 40px;
+}
+
+.homeHeading1 {
+  font-family: "Dancing Script", cursive;
+  padding-top: 15px;
+  padding-left: 220px;
+  font-size: 40px;
+}
+
+.homeHeading2 {
+  padding-left: 280px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 18px;
+  padding-left: 450px;
+  font-size: 40px;
+}
+
+.navbarHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.animate-character {
+  background-image: linear-gradient(
+    -225deg,
+    #6af3f3 30%,
+    #fdfd5ef7 40%,
+    #d87dfcd0 17%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200%;
+  }
+}
+
+/* Markdown */
+.markhead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#h1 {
+  flex: 1;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  margin-left: 110px;
+}
+
+.logoutBtn {
+  margin-right: 20px;
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+  padding-top: 5px;
+  margin-left: 35px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  background-color: lightpink;
+  color: black;
+  border: none;
+  font-size: 16px;
+  border-radius: 20px 0px;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  border-radius: 0px 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea {
+  width: 35vw;
+  height: 400px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  outline: none;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 20px 0px;
+  box-shadow: 2px 4px 4px 6px red;
+  animation: infinite linear 4s b;
+  font-family: "poppins";
+  overflow-y: scroll;
+}
+
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.output {
+  font-size: 14px;
+  width: 35vw;
+  height: 400px;
+  background: #222;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 12px;
+  color: #fff;
+  line-height: 3rem;
+  margin-left: 45px;
+  border-radius: 20px 0px;
+  box-shadow: 2px 4px 4px 6px red;
+  animation: infinite linear 4s b;
+  font-family: "poppins";
+  overflow: scroll;
+}
+
+.output::-webkit-scrollbar {
+  display: none;
+}
+
+.export {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.exportBtn {
+  text-align: center;
+  width: 25%;
+  height: 40px;
+  padding: 10px;
+  padding-top: 5px;
+  margin-left: 475px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: lightpink;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px 0px;
+  cursor: pointer;
+}
+.exportBtn:hover {
+  border-radius: 0px 20px;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  object-fit: cover;
+}
+
+blockquote {
+  font-size: 2rem;
+  font-style: italic;
+  border-left: 5px solid hsl(210, 22%, 49%);
+  color: hsl(210, 22%, 49%);
+  padding-left: 2rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+}
+
+blockquote ::first-letter {
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  font-size: 18px;
+  color: #ffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+pre {
+  background: #222;
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  color: yellow;
+  margin-bottom: 1.5rem;
+}
